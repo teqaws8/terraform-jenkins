@@ -1,5 +1,5 @@
 resource "aws_security_group" "web-sg" {
-  name = “new-secgrp”
+  name = new-secgrp
   ingress {
     from_port   = 80
     to_port     = 80
