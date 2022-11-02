@@ -42,13 +42,13 @@ associate_public_ip_address = true
 
 #!/bin/bash
 
-sudo apt-get update -y
+apt-get update -y
 
 #sudo apt-get upgrade -y
 
-sudo apt-get install apache2 -y
+apt-get install apache2 -y
 
-sudo systemctl restart apache2
+systemctl restart apache2
 
 sudo chmod 777 -R /var/www/html/
 
